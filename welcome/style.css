@@ -1,0 +1,71 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: "museo-sans",serif;
+  height: 100%;
+  margin: 0px;
+}
+div {
+  margin: auto;
+}
+a {
+  color: inherit;
+}
+.container {
+  text-align: center;
+
+  /*https://css-tricks.com/centering-css-complete-guide/#vertical-inline-multiple*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
+
+#hero {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 80%;
+  background-color: #ec008c;
+  color: white;
+}
+.title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ec008c;
+  border-top: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.projects-container table {
+  font-size: 24px;
+  color: white;
+  border-spacing: 0px;
+}
+.projects-container a {
+  text-decoration: none;
+}
+.projects-container a:hover {
+  text-decoration: underline;
+}
+.projects-container th,
+.projects-container td {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  min-width: 100px;
+}
+.projects-container tbody tr:hover {
+  background-color: #89216f;
+}
