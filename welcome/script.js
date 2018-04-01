@@ -52,7 +52,7 @@
       </div>
     `;
   }
-  fetch("https://raw.githubusercontent.com/mpaulweeks/cfc2018/master/static/roster.json?v=" + (new Date()).toISOString())
+  fetch("static/roster.json?v=" + (new Date()).toISOString())
     .then(response => {
       return response.json();
     })

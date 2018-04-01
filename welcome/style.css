@@ -1,6 +1,5 @@
 body {
-  background-color: white;
-  color: black;
+  background-color: #ec008c;
   font-family: "museo-sans",serif;
   height: 100%;
   margin: 0px;
@@ -43,7 +42,6 @@ a {
 .projects-container {
   display: flex;
   justify-content: center;
-  background-color: #ec008c;
   border-top: 2px solid white;
   padding-top: 30px;
   padding-bottom: 30px;

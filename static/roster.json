@@ -1,4 +1,4 @@
 {
-  "students": [],
+  "students": ["jen", "diane", "penelope"],
   "projects": ["biography"]
 }
