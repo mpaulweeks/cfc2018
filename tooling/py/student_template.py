@@ -1,5 +1,4 @@
 import os
-from shutil import copyfile
 
 """
 python tooling/py/student_template.py
@@ -10,6 +9,7 @@ PATH_STUDENTS = ROOT + 'students'
 PATH_TEMPLATE = ROOT + 'tooling/templates'
 BASE_URL = 'https://mpaulweeks.github.io/cfc2018'
 
+
 def copy_file(template_path, student_name, student_path):
     with open(template_path, 'r') as f:
         content = f.read()
@@ -18,8 +18,8 @@ def copy_file(template_path, student_name, student_path):
     with open(student_path, "w") as f:
         f.write(content)
 
-def run():
 
+def run():
     students = []
     for f in os.listdir(PATH_STUDENTS):
         if not os.path.isfile(os.path.join(PATH_STUDENTS, f)):
@@ -44,6 +44,7 @@ def run():
                     s_path = '%s/%s/%s' % (PATH_STUDENTS, s, child_rel_path)
                     if not os.path.exists(s_path):
                         os.makedirs(s_path)
+
 
 if __name__ == "__main__":
     run()
