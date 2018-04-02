@@ -1,4 +1,13 @@
 {
-  "students": ["diane", "jen", "penelope"],
-  "projects": ["biography"]
+  "students": [
+    "carey",
+    "diane",
+    "jen",
+    "max",
+    "penelope",
+    "steve"
+  ],
+  "projects": [
+    "biography"
+  ]
 }
