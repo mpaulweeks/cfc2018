@@ -15,7 +15,12 @@
     });
     var bodyHtml = '';
     roster.students.forEach(s => {
-      var sHtml = `<td class="projects-name">${s}</td>`;
+      var sHtml = `
+        <td class="projects-name">
+          <a href="https://mpaulweeks.github.io/cfc2018/students/${s}"/>
+            ${s}
+          </a>
+        </td>`;
       roster.projects.forEach(p => {
         if (p === 'final'){
           const fi = roster.finals[s];
