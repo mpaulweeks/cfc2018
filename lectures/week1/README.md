@@ -17,7 +17,7 @@
   - Uploading a file
   - Modifying a file, git history
 - Introduction to HTML
-  - demo creation in class, everyone uploads `students/<yourname>/week1/index.html`
+  - demo creation in class, everyone uploads `students/<yourname>/index.html`
 - Introduction to CSS
   - demo classes, font size, colors
 - Demo Chrome dev tools
@@ -25,5 +25,5 @@
 ## Homework
 
 - [Biography](/homework/biography)
-- Use the Chrome dev tool to inspect Twitter. Edit a person's tweet, then screencap the result!
+- Use the Chrome dev tool to inspect Twitter and other websites
   - [Instructions on how to access dev tools](https://developer.chrome.com/devtools)

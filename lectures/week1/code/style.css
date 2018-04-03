@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+  font-family: "Helvetica";
+  letter-spacing: 5px;
+  background-color: rgb(255, 255, 0);
+}
+
+.inventor {
+  width: 200px;
+}
+
+.quote {
+  font-style: italic;
+  text-align: left;
+}
+
+.subtle {
+  color: black;
+  font-size: 30px;
+}
