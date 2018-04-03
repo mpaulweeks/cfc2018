@@ -5,6 +5,7 @@ python tooling/py/student_template.py
 """
 
 ROOT = '/Users/mpaulweeks/git/mpaulweeks/cfc2018/'
+# ROOT = '/home/chronos/user/Downloads/git/mpaulweeks/cfc2018/'
 PATH_STUDENTS = ROOT + 'students'
 PATH_TEMPLATE = ROOT + 'tooling/templates'
 BASE_URL = 'https://mpaulweeks.github.io/cfc2018'
