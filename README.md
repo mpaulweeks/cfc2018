@@ -1,8 +1,6 @@
 # Coding For Creatives 2018 April
 
-![](welcome/tomhanks.gif)
-
-https://mpaulweeks.github.io/cfc2018/
+[View "the pink site" with links to everything](https://mpaulweeks.github.io/cfc2018/)
 
 ## Goals
 
