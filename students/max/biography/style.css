@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+  background-color: #020202;
+  color: #CCCCCC;
+  font-family:sans-serif;
+}
+
+h1{
+  color:#F9A900;
+}
+
+.subhead{
+  text-align: left;
+  margin: auto;
+  width: 30%;
+  font-size: 24pt;
+}
+
+.list{
+  text-align: left;
+  margin: auto;
+  width: 30%;
+
+}
+
+.link{
+  color: #EEEEEE;
+}
+
+#foot{
+  width: 200px;
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation{
+  from{
+    -webkit-transform:rotate(0deg);
+  }
+  to{
+    -webkit-transform:rotate(359deg);
+  }
+}
