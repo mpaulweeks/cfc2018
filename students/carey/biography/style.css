@@ -1,0 +1,106 @@
+h1{
+  padding-top: 60px;
+  width: 670px;
+  text-align: center;
+  font-size: 250px;
+  font-variant-caps: all-small-caps;
+  font-family: "Nanum Brush Script", script;
+  font-weight: bold;
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+h2{
+  width: 670px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+body{
+  background-image: url(https://pbs.twimg.com/media/DaGg9HiVQAY1per.jpg:large);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -140px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.subheaderleft{
+  padding-left: 120px;
+  width: 670px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  text-decoration: underline;
+}
+
+.subheaderright{
+  padding-left: 70px;
+  width: 670px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  text-decoration: underline;
+}
+
+.copy1{
+  width: 450px;
+  text-indent: 130px;
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+}
+
+.copy2{
+  width: 450px;
+  text-indent: 80px;
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+}
+
+.paragraph{
+  padding-left: 50px;
+  width: 610px;
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+}
+
+.twitter{
+  position: fixed;
+    bottom: 0;
+    right: 100px;
+    width: 300px;
+  height: 100px;
+  width: 100px;
+}
+
+.spotify{
+  position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+  height: 70px;
+  width: 70px;
+  padding-bottom: 5px;
+}
