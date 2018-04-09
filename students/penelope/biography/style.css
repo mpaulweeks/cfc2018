@@ -8,7 +8,7 @@ body{ text-align: center;
 
 @font-face {
     font-family: 'Basquiat';
-    src: url('..cfc2018/students/penelope/biography/fonts/Basquiat.ttf') format('truetype');
+    src: url('..cfc2018/students/penelope/biography/fonts/Basquiat.ttf') format('ttf');
 
     font-weight: normal;
     font-style: normal;
