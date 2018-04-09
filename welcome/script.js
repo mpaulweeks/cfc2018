@@ -5,27 +5,27 @@
 
   function renderLinks(roster){
     console.log(roster);
-    var headHtml = '<th class="projects-name">name</th>';
-    roster.projects.forEach(p => {
+    var headHtml = '<th></th>';
+    roster.students.forEach(s => {
       headHtml += `
+        <th>
+          <a href="https://mpaulweeks.github.io/cfc2018/students/${s}"/>
+            ${s}
+          </a>
+        </th>`;
+    });
+    var bodyHtml = '';
+    roster.projects.forEach(p => {
+      var rowHtml = `
         <th>
           <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/homework/${p}">${p}</a>
         </th>
       `;
-    });
-    var bodyHtml = '';
-    roster.students.forEach(s => {
-      var sHtml = `
-        <td class="projects-name">
-          <a href="https://mpaulweeks.github.io/cfc2018/students/${s}"/>
-            ${s}
-          </a>
-        </td>`;
-      roster.projects.forEach(p => {
+      roster.students.forEach(s => {
         if (p === 'final'){
           const fi = roster.finals[s];
           if (fi){
-            sHtml += `
+            rowHtml += `
               <td class="projects-cell">
                 <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/${p}">docs</a>
                 <a target="_blank" href="https://github.com/${fi.github}/${fi.repo}">code</a>
@@ -33,14 +33,14 @@
               </td>`;
           }
         } else {
-          sHtml += `
+          rowHtml += `
             <td class="projects-cell">
               <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/${p}">code</a>
               <a target="_blank" href="https://mpaulweeks.github.io/cfc2018/students/${s}/${p}">site</a>
             </td>`;
         }
       });
-      bodyHtml += `<tr>${sHtml}</tr>`;
+      bodyHtml += `<tr>${rowHtml}</tr>`;
     });
     document.body.innerHTML += `
       <div class="projects-container">
