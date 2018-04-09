@@ -8,8 +8,8 @@ body{ text-align: center;
 
 @font-face {
     font-family: 'basquiatregular';
-        src: url('basquiat.woff2') format('woff2'),
-         url('basquiat.woff') format('woff');
+        src: url('basquiat.ttf') format('ttf'),
+
         
     font-weight: normal;
     font-style: normal;
