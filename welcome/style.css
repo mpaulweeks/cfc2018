@@ -46,6 +46,7 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .projects-container table {
   font-size: 24px;
   color: white;
@@ -54,9 +55,6 @@ a {
 .projects-container a {
   text-decoration: none;
 }
-.projects-container a:hover {
-  text-decoration: underline;
-}
 .projects-container th,
 .projects-container td {
   padding-left: 10px;
@@ -64,6 +62,27 @@ a {
   text-align: center;
   min-width: 100px;
 }
-.projects-container tbody tr:hover {
+
+table {
+  overflow: hidden;
+}
+tr:hover {
   background-color: #89216f;
+}
+th a:hover,
+tr a:hover {
+  text-decoration: underline;
+}
+td, th {
+  position: relative;
+}
+td:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #89216f;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
 }
