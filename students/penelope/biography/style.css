@@ -1,7 +1,7 @@
 
 body{ text-align: center;
   background-color: black;
-  font-family: Basquiat;
+  font-family: basquiatregular;
   font color: white;
   font-size: 25px
 }
@@ -19,7 +19,7 @@ h1{
   text-align: center;
   font-style: oblique;
   color: white;
-  font-family:"BASQUIAT";
+  font-family:"basquiatregular";
 font-size: 70px
 }
 
@@ -27,7 +27,7 @@ h2{
   text-align:center;
   font-style: oblique;
   color: white;
-  font-family:"Basquiat";
+  font-family:"basquiatregular";
   font-size: 65px
 }
 
