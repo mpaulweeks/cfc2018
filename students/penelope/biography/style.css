@@ -8,8 +8,8 @@ body{ text-align: center;
 
 @font-face {
     font-family: 'basquiatregular';
-    src: url('basquiat_regular-webfont.woff2') format('woff2'),
-         url('basquiat_regular-webfont.woff') format('woff');
+    src: url('cfc2018/students/penelope/biography/Fonts/basquiat_regular-webfont.ttf') format('ttf'),
+        
     font-weight: normal;
     font-style: normal;
 
