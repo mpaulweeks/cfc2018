@@ -1,0 +1,31 @@
+<head>
+  <title>Comments Example</title>
+
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/mpaulweeks/cfc2018/master/static/comments.css" />
+  <script type="text/javascript" src="https://raw.githubusercontent.com/mpaulweeks/cfc2018/master/static/comments.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="main.js" defer></script>
+</head>
+<body>
+
+  <p>
+    (thoughts will go here, maybe with some headers or lists?)
+  </p>
+
+  <form id="comments-form">
+    <label>
+      name
+    </label>
+    <input name="name" value="" required/>
+    <label>
+      text
+    </label>
+    <input name="text" value="" required/>
+    <button type="submit">
+      Comment
+    </button>
+  </form>
+
+  <div id="comments-view"></div>
+</body>

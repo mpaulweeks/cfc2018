@@ -7,7 +7,6 @@
 - How the internet works
   - DNS
   - Servers and IP
-  - Routers and Local IP
   - Frontend vs Backend, "static files"
 
 ## Workshop
