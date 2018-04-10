@@ -2,18 +2,24 @@ body{
   text-align: center;
   background-color: #020202;
   color: #CCCCCC;
-  font-family:sans-serif;
+  font-family: 'Hi Melody', cursive;
 }
 
-h1{
+
+.gold {
   color:#F9A900;
+  text-align: center;
+  font-family: 'Helvetica';
 }
 
 .subhead{
-  text-align: left;
+  text-align: center;
   margin: auto;
   width: 30%;
   font-size: 24pt;
+}
+.left {
+  text-align: left;
 }
 
 .list{

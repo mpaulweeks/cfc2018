@@ -8,7 +8,7 @@ body{ text-align: center;
 
 @font-face {
     font-family: 'basquiatregular';
-        src: url('../cfc2018/students/penelope/biography/Fonts/basquiat_regular-webfont.ttf') format('ttf');
+        src: url('Fonts/basquiat_regular-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -45,3 +45,19 @@ color: #800000;
 font-family:"Didot";
 font-size: 40px
 }
+
+.half {
+  width: 50%;
+}
+.medium {
+  width: 40%;
+}
+
+
+
+
+
+
+
+
+/* fjsdf */
