@@ -6,12 +6,17 @@
 - Relative vs absolute URLs
   - Linking to local resources vs [hotlinking](https://en.wikipedia.org/wiki/Inline_linking)
 - Inline styles
-- Review last week's homework
+
+- The "row" eg `<div>`, `<p>`, `<h1>`
+- The layers eg styles on `<body>`
+
+- Review last week's homework, take questions
 - Browser cache and cache busting
 
 ## Workshop
 
 - `<title>`
+- forms
 - Linking a JS file
 
 ## Homework
