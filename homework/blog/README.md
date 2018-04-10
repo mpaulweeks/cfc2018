@@ -16,8 +16,13 @@ Your page must include the following:
 - a paragraph describing your thoughts on the reading
   - include 3 lessons you learned
 - a link to your biography page from last week (get URL from pink site)
-- a working comments section
-- custom styles
+- a working comments section (don't break the provided code)
+- change the copy from the example:
+  - page title (currently `Comments Example`)
+  - form labels (currently `Label 1`, `Label 2`)
+  - form button (currently `Button`)
+- add your own custom styles to give the page character
+  - similar stuff as last week, colors and fonts are sufficient
 
 Upload the following to `students/<yourname>/blog/` by 8am on Monday, April 16
 - `index.html`
@@ -25,5 +30,9 @@ Upload the following to `students/<yourname>/blog/` by 8am on Monday, April 16
 - a `js` file to load the comments
 
 ## Tips
-- Looking into adding "placeholder" text to your form
-- Try overriding the comments styles by loading your `css` file second
+- Override the default yellowish comments styling by inspecting the page for the class names, then add those class names to your CSS file and customize them further
+- Trying to center something with fixed width? `text-align: center;` isn't cutting it?
+  - For something with width: 600px, add the following CSS: `margin-left: calc(50% - 300px);`
+  - Be careful! White space is important with calc!
+- Look into adding "placeholder" text to your form
+  - eg: `<input placeholder="something"> ...`
