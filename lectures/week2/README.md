@@ -2,21 +2,22 @@
 
 ## Lecture
 
-- Explain source control
-- Relative vs absolute URLs
-  - Linking to local resources vs [hotlinking](https://en.wikipedia.org/wiki/Inline_linking)
-- Inline styles
-
-- The "row" eg `<div>`, `<p>`, `<h1>`
-- The layers eg styles on `<body>`
-
-- Review last week's homework, take questions
-- Browser cache and cache busting
+- Common issues
+  - Explain source control
+  - Relative vs absolute URLs
+    - Linking to local resources vs [hotlinking](https://en.wikipedia.org/wiki/Inline_linking)
+  - Inline styles
+  - Browser cache and cache busting
+- HTML Layout
+  - The "row" eg `<div>`, `<p>`, `<h1>`
+  - The layers eg styles on `<body>`
+- Review
+  - Last week's homework, take questions
 
 ## Workshop
 
 - `<title>`
-- forms
+- `<form>`
 - Linking a JS file
 
 ## Homework
