@@ -10,7 +10,7 @@ Read `example/main.js` for information about setting up your own comment section
 
 ## Assignment
 
-Create a blog page where you describe your thoughts and feelings from the first five chapters of Don't Make Me Think.
+Create a blog page where you describe your thoughts and feelings from the first five chapters of [Don't Make Me Think](http://static.mpaulweeks.com/files/think.pdf).
 
 Your page must include the following:
 - a paragraph describing your thoughts on the reading
