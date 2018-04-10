@@ -1,13 +1,14 @@
 CFC = window;
 CFC.Comments = {};
 
-CFC.Comments.Url = function(path){
+CFC.Comments.Url = function(path, omitCacheBust){
   const now = (new Date()).toISOString();
-  return `https://postboard.mpaulweeks.com/${path}?v=${now}`;
+  const nowParam = omitCacheBust ? '' : `?v=${now}`;
+  return `https://postboard.mpaulweeks.com/${path}${nowParam}`;
 }
 
 CFC.Comments.Get = function (key, callback){
-  const url = `https://postboard.mpaulweeks.com/comments/cfc/${key}`;
+  const url = CFC.Comments.Url(`comments/cfc/${key}`);
   fetch(url)
     .then(response => {
       return response.json();
@@ -64,11 +65,12 @@ CFC.Comments.Setup = function (key, viewId, formId){
     // got here via back button, force reload
     window.location.reload();
   } else {
+    const url = CFC.Comments.Url(`comments/cfc/${key}`, true);
     viewId = viewId || "comments-view";
     formId = formId || "comments-form";
     var formElm = document.getElementById(formId);
     formElm.setAttribute("method", "post");
-    formElm.setAttribute("action", `https://postboard.mpaulweeks.com/comments/cfc/${key}`);
+    formElm.setAttribute("action", url);
     CFC.Comments.GetAndDisplay(key, viewId);
   }
 }
