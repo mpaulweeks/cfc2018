@@ -7,6 +7,8 @@
   - Relative vs absolute URLs
     - Linking to local resources vs [hotlinking](https://en.wikipedia.org/wiki/Inline_linking)
   - Inline styles
+  - Fonts
+    - https://fonts.google.com/
   - Browser cache and cache busting
 - HTML Layout
   - The "row" eg `<div>`, `<p>`, `<h1>`
