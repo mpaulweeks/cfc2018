@@ -7,12 +7,10 @@ body{ text-align: center;
 }
 
 @font-face {
-    font-family: 'basquiatregular';
-        src: url('../cfc2018/students/penelope/biography/Fonts/basquiat_regular-webfont.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-
+font-family: 'Basquiat';
+src: url('Fonts/basquiat_regular-webfont.woff') format('woff');
 }
+
 
 h1{
   text-align: center;
