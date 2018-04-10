@@ -15,6 +15,7 @@
   - The layers eg styles on `<body>`
 - Review
   - Last week's homework, take questions
+  - [View changes made in class](https://github.com/mpaulweeks/cfc2018/compare/week2)
 
 ## Workshop
 
