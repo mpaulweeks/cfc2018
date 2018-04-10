@@ -3,11 +3,11 @@ CFC.Comments = {};
 
 CFC.Comments.Url = function(path){
   const now = (new Date()).toISOString();
-  return `http://postboard.mpaulweeks.com/${path}?v=${now}`;
+  return `https://postboard.mpaulweeks.com/${path}?v=${now}`;
 }
 
 CFC.Comments.Get = function (key, callback){
-  const url = `http://postboard.mpaulweeks.com/comments/cfc/${key}`;
+  const url = `https://postboard.mpaulweeks.com/comments/cfc/${key}`;
   fetch(url)
     .then(response => {
       return response.json();
@@ -68,7 +68,7 @@ CFC.Comments.Setup = function (key, viewId, formId){
     formId = formId || "comments-form";
     var formElm = document.getElementById(formId);
     formElm.setAttribute("method", "post");
-    formElm.setAttribute("action", `http://postboard.mpaulweeks.com/comments/cfc/${key}`);
+    formElm.setAttribute("action", `https://postboard.mpaulweeks.com/comments/cfc/${key}`);
     CFC.Comments.GetAndDisplay(key, viewId);
   }
 }
