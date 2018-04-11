@@ -12,7 +12,8 @@ body {
 h1 {
   font-family: 'Luckiest Guy', cursive;
   color: white;
-  font-size: 45pt;
+  font-size: 40pt;
+  letter-spacing: 2px;
 
 }
 
