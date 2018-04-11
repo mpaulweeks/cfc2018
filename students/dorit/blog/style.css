@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+
+}
+  .heading {
+    height: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 2px;
+    text-align: left;
+    background-color: brown;
+    color: white;
+    font-family: helvetica;
+    font-size: 40px;
+    padding: 40px;
+  }
+  .post {
+    padding-left: 200px;
+    margin-right: 250px;
+    padding-top: 50px;
+    padding-bottom:50px;
+        }
+  .postimage {
+    width:50%;
+    text-align: center;
+    border: 2px solid brown;
+  }
+  .header {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 24pt;
+    color: brown;
+  }
+  .posttext {
+    font-family: helvetica;
+    line-height: 1.5;
+  }
+  ul {
+    line-height: 1.8;
+  }
+  .different {
+
+  }
+  hr {
+    display: block;
+    border-color: brown;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  }
+  .comments {
+  margin-left: 200px;
+  }
+  .label {
+    margin-top: 10px;
+    font-family:helvetica;
+    }
+    .comments-top-container {
+      border: 2px solid brown;
+    }
+    .comments-top-header {
+      font-family: helvetica;
+    }
+    .comment-name {
+      background-color: lightsalmon;
+
+    }
+    .comment-text {
+      background-color: lightsalmon;
+
+    }
+    .comment-container {
+      border: 2px solid brown;
+      background-color: lightsalmon;
+    }
+.textbox {
+  width: 300px;
+
+}
+button {
+margin-left: 8px;
+}
+div {
+  padding: 10px;
+}
+    }
