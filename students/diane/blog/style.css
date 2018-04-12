@@ -1,0 +1,80 @@
+body {
+  background-color: #312E35;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20pt;
+  color: white;
+}
+
+p {
+  text-align: left;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 12pt;
+  color: #C0CAD2;
+}
+
+.submission {
+  text-align: left;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 12pt;
+  color: #C0CAD2;
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+.comments-top-container{
+  margin-right: 140px;
+  margin-left: 140px;
+  color: #C0CAD2;
+  border-color: #A80035;
+}
+
+.comment-container{
+  background-color: #A80035;
+}
+
+.comments-top-header{
+font-style: normal;
+font-size: 16pt
+color: #1B2126;
+}
+
+.comment-name {
+  text-align: left;
+  font-family: 'IBM Plex Serif', serif;
+  background-color: #C0CAD2;
+  color: #A80035;
+}
+
+.comment-text {
+  text-align: left;
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: #C0CAD2;
+  color: #1B2126;
+}
+
+.margin {
+  margin-right: 140px;
+  margin-left: 140px;
+}
+
+.comments {
+  margin-right: 140px;
+  margin-left: 140px;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.image {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.link {
+  color: #A80035;
+}
