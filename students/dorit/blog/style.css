@@ -38,9 +38,7 @@ body {
   ul {
     line-height: 1.8;
   }
-  .different {
-
-  }
+  
   hr {
     display: block;
     border-color: brown;
@@ -48,7 +46,7 @@ body {
     margin-top: 5px;
     margin-bottom: 10px;
   }
-  }
+ 
   .comments {
   margin-left: 200px;
   }
@@ -76,7 +74,6 @@ body {
     }
 .textbox {
   width: 300px;
-
 }
 button {
 margin-left: 8px;
@@ -84,4 +81,4 @@ margin-left: 8px;
 div {
   padding: 10px;
 }
-    }
+   
