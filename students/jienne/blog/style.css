@@ -1,0 +1,79 @@
+body{
+  background-color: #c8dac2;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+.title{
+  font-variant-caps: unicase;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-decoration: 10px;
+  font-size: 70px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h2{
+font-size: 20px;
+}
+.comment-text{
+  background-color: #E8E4ED;
+  text-align: center;
+}
+.comment-name{
+  background-color: #E8E4ED;
+  text-align: center;
+}
+.comment-text{
+  background-color: #E8E4ED;
+  text-align: center;
+}
+.comments-top-container{
+  background-color: #E8E4ED;
+  border: 2px solid white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.comment-container{
+  background-color: #E8E4ED;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150%;
+}
+.paragraph{
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.list{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+ol{
+  font-size: 15px;
+}
+.question{
+  font-size: 20px;
+  font-variant: small-caps;
+}
+.endnote{
+  font-size: 12px;
+}
