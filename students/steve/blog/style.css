@@ -1,0 +1,81 @@
+body {
+  background-color:#667682;
+}
+.ramble {
+  list-style: decimal;
+
+}
+
+h1 {
+  height: 80px;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 2px;
+   text-align: left;
+   background-color: green;
+   color: white;
+   font-family: "Roboto";
+   font-size: 40px;
+   padding: 40px;
+}
+.main {
+  padding-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    font: 1.2em "Roboto", sans-serif;
+    font-size: 20pt;
+    color: black;
+}
+h2 {
+font: 1.2em "Roboto", sans-serif;
+font-size: 20pt;
+font-weight: bolder;
+}
+.comment-container {
+color: #FEF7E2
+}
+
+li {
+  font: 1.2em "Roboto", sans-serif;
+}
+
+.theimage {
+   width:50%;
+   text-align: center;
+   border: 3px green;
+ }
+
+button {
+  background-color: #4CAF50; /* Green */
+  background-size:
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+.label{
+  font: 1.2em "Roboto", sans-serif;
+  font-size: 14pt;
+  color: black;
+  font-weight: bold;
+}
+
+
+.comment-text {
+  font: 1.2em "Roboto", sans-serif;
+  font-size: 14pt;
+  color: black;
+
+}
+.comment-name {
+
+  font: 1.2em "Roboto", sans-serif;
+  font-size: 14pt;
+  color: black;
+}
+margin-left: calc(50% - 300px);
