@@ -1,0 +1,63 @@
+body {
+  background-color: #f6f6f6;
+}
+
+h1{
+  text-align: center;
+  font-family: Didot;
+  letter-spacing: 8px;
+  font-size: 100px
+}
+
+
+
+.center1{
+  margin-left: calc(50% - 300px);
+  background-color: white;
+
+
+}
+
+.comments-top-container {
+    border: 2px solid #D8BFD8;
+    width: 600px;
+    padding: 10px;
+}
+
+.comment-container{
+  background-color: white;
+}
+
+.comment-name{
+  background-color: white;
+  text-align: left;
+  font-size: 15px
+}
+
+.comment-text {
+  background-color: white;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+
+
+.button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: 5px solid #D8BFD8;
+}
+
+
+.stuff{
+  font-size: 30px
+}
+
+.blog{
+ margin: 100px;
+  font-family: Montserrat;
+  font-size: 50px
+}
