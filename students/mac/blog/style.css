@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: "Arvo", serif;
+}
+
+h1{
+  color: yellow;
+  font-size: 80px;
+}
+
+.bodytext {
+  column-count: 2;
+  column-gap: 80px;
+  margin: 100px;
+  text-align: left;
+  column-rule-style: dashed;
+  column-rule-width: 10px;
+}
+
+.comments-view {
+  margin-left: calc(50% - 300px);
+  text-align: left;
+}
+
+.break{
+  padding-top: 200px;
+}
