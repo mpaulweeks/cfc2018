@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+
+  height: 100px;
+  background-color: #CCCCCC;
+}
+
+.navitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  background-color: green;
+}

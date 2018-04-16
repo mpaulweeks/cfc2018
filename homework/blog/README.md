@@ -1,4 +1,4 @@
-# Blog
+# blog
 
 [View the lecture notes](/lectures/week2)
 

@@ -10,6 +10,7 @@
     "steve"
   ],
   "projects": [
+    "nav",
     "blog",
     "biography"
   ]

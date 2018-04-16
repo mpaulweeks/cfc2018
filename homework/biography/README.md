@@ -1,4 +1,4 @@
-# Biography
+# biography
 
 [View the lecture notes](/lectures/week1)
 
