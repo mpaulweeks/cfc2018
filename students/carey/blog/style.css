@@ -1,0 +1,118 @@
+body {
+  background-color: #ffeaee;
+  width: 900px;
+  padding-left: 275px;
+}
+
+h1{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 10px 10px 10px gray;
+  color: white;
+}
+
+.indent{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.thoughts{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+}
+
+.italics{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bulletsintro{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+}
+
+ul{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  text-indent: 20px;
+}
+
+.bold{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#comments-form{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+#comments-view{
+
+}
+
+
+.comments-top-container {
+    border: 2px solid pink;
+    width: 600px;
+    padding: 10px;
+}
+
+.comment-container {
+    position: relative;
+    background-color: white;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.comment-name {
+    background-color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
+  .comment-text {
+    background-color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.comments-top-header {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    background-color: white;
+    padding: 1px;
+    border-width: 2px;
+    width: 200px;
+    height: 25px;
+  }
+
+button{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid pink;
+  width: 100px;
+  padding: 10px;
+}
