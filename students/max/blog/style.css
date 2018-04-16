@@ -1,0 +1,65 @@
+body{
+  margin-left: 20%;
+  margin-right: 30%;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  color:#333333;
+  font-family: 'Roboto', sans-serif;
+}
+
+#comments-form{
+  margin-left: 20%;
+  margin-top: 40px;
+}
+
+#comments-view{
+  margin-left: 20%;
+}
+
+.header{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 42pt;
+}
+
+.label{
+  font-weight: 900;
+}
+
+.comments-top-header{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 24pt;
+}
+
+.comment-name{
+  font-weight: 900;
+  background-color: #FFFF00
+}
+
+.comment-text{
+    background-color: #FFFFAA
+}
+
+.comment-container{
+  background-color: #FFFF00
+}
+
+.subhead{
+  font-size: 24pt;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.bodycopy{
+  margin-bottom: 10px;
+}
+
+.date{
+  font-weight: 300;
+  font-size: 12pt;
+  padding-left: 10px;
+}
+
+.italic{
+  font-style: italic;
+}
