@@ -2,7 +2,7 @@
 
 [View the lecture notes](/lectures/week3)
 
-[View the example web page](http://cfc2017.mpaulweeks.com/homework/navbar/example)
+[View the example web page](https://mpaulweeks.github.io/cfc2018/homework/navbar/example)
 
 ## Assignment
 
