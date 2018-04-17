@@ -1,0 +1,121 @@
+body {
+  width: 70%;
+  font-size: 14px;
+  font-family: helvetica;
+  margin-left: 250px;
+
+}
+.header {
+  color: steelblue;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  border-bottom: solid 2px;
+  align-items: end;
+}
+
+.navbar {
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  }
+
+.navbaritem {
+  padding: 20px;
+  padding-bottom: 5px;
+  }
+
+.websitetitle {
+  font-size: 35px;
+  font-weight: bold;
+  flex-grow: 1;
+
+}
+.link {
+  color:steelblue;
+  text-decoration: none;
+}
+.navthis {
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 20px;
+  color: grey;
+  font-family:georgia;
+  font-size: 16px;
+  padding: 50px;
+  padding-top: 20px;
+  line-height: 25px;
+  width: 95%;
+
+}
+.title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: midnightblue;
+  text-align: center;
+}
+img {
+  width: 95%;
+
+  }
+.image1 {
+  padding-left: 250px;
+  width: 50%
+  }
+.image {
+    text-align: left;
+  }
+
+.imageandbio {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content1 {
+  margin-top: 50px;
+}
+
+
+
+
+.label {
+  margin-top: 10px;
+  font-family:helvetica;
+}
+.comments-top-container {
+  border: 2px solid steelblue;
+}
+.comments-top-header {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+.comment-name {
+  background-color: paleturquoise;
+  font-weight: bold;
+
+}
+.comment-text {
+  background-color: paleturquoise;
+
+}
+.comment-container {
+  margin: 2px;
+  border: 2px solid steelblue;
+  background-color: paleturquoise;
+  padding: 10px;
+}
+.textbox {
+  width: 300px;
+
+}
+button {
+  margin-left: 8px;
+}
+.comments {
+  width: 70%;
+}
