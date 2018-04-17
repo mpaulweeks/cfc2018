@@ -20,3 +20,5 @@ Upload the following to `students/<yourname>/canvas/` by 8am on Monday, April 30
 ## Tips
 - Guide on how to use [<canvas>](canvas.md)
 - Strings, like colors, needs quotes around them like `"this"`, but variable names like `canvas` and numbers don't need quotes
+- Totally stuck? Try inspecting the page and checking the Console for errors:
+![](console.png)
