@@ -32,3 +32,4 @@ Upload the following to `students/<yourname>/navbar/` by 8am on Monday, April 23
     - where it should align itself in the direction given above
   - `align-items: center|flex-start|flex-end;`
     - where it should align itself on the perpendicular axis
+  - You can read more about flexbox in this nice online [cheatsheet](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
