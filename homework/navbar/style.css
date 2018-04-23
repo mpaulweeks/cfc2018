@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background-color: yellow;
+  font-family: 'Architects Daughter', bold;
+  font-size: 100px;
+}
+
+h1 {
+  font-size: 300px;
+  transform: rotate(-20deg);
+  text-align:left;
+  color: white;
+}
+
+.dolores {
+  font-size: 250px;
+  transform: rotate(10deg);
+  text-align:left;
+  color: white;
+  padding: -10px;
+}
+
+.ford{
+  font-size: 250px;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  font-family: Futura;
+  font-size: 45px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  background-color: lightblue;
+  padding: 15px;
+
+  position: fixed;
+  top: 70px;
+  right: 50px;
+}
+
+.space {
+  padding-top: 500px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+p {
+  color: red;
+}
