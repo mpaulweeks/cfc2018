@@ -1,0 +1,109 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0px;
+  background-image: url(https://www.xmple.com/wallpaper/blue-pink-gradient-linear-1920x1080-c2-ffb6c1-48d1cc-a-210-f-14.svg);
+}
+
+h1{
+  text-align: center;
+  font-size: 100px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 0px;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  color: black;
+  text-decoration: none;
+  margin: 0px;
+}
+
+.navitem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20%;
+  font-weight: bold;
+}
+
+.content{
+  font-size: 20px;
+  padding-top: 70px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.gif{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height:50%;
+}
+
+.wingsalbum{
+  height: 70%;
+  opacity: .9;
+}
+
+.yfalbum{
+  height: 70%;
+  opacity: .9;
+}
+
+.lyalbum{
+  height: 70%;
+  opacity: .9;
+}
+
+.albumcontent{
+  padding: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.track{
+  list-style-type: none;
+  text-align: right;
+  padding-left: 40px;
+  line-height: 30px;
+  padding-top: 50px;
+}
+
+.title{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.commentary{
+  list-style-type: none;
+  text-align: left;
+  color: grey;
+  font-style: italic;
+  line-height: 30px;
+  padding-top: 50px;
+}
+
+.tears{
+  font-size:100px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
