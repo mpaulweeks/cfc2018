@@ -1,4 +1,4 @@
-# Canvas
+# canvas
 
 [View the lecture notes](/lectures/week4)
 
