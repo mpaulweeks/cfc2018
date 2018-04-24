@@ -45,7 +45,7 @@ Upload the following to `students/<yourname>/canvas/` by 8am on Monday, April 30
 - Image urls have to be absolute, ie with the "http://" beginning
 
 ## Canvas Tips
-- Guide on how to use [<canvas>](canvas.md)
+- Guide on how to use [canvas](canvas.md)
 - Strings, like colors and hex codes, needs quotes around them like `"this"`, but variable names like `canvas` and numbers don't need quotes
 - Want to go the extra mile? Try experimenting with gradients:
   - [Linear Gradients](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient)
