@@ -8,8 +8,10 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+}
 
-  /* max-width: 930px; */
+.tile {
+  flex: 33%;
 }
 
 .image {
