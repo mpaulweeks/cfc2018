@@ -25,6 +25,7 @@ ctx.strokeRect(200, 300, width, height);
 ctx.beginPath();
 ctx.moveTo(100, 100);
 ctx.lineTo(200, 100);
+ctx.lineTo(200, 300);
 ctx.lineTo(100, 200);
 ctx.closePath();
 ctx.fill();
@@ -35,6 +36,12 @@ ctx.fillStyle = "blue";
 
 // draw circle
 ctx.beginPath();
-ctx.arc(300, 200, 20, 0, Math.PI*2);
+ctx.arc(300, 200, 100, 0, Math.PI*2);
 ctx.fill();
 ctx.stroke();
+
+
+
+
+
+// whitespace for the TV
