@@ -14,12 +14,13 @@ Requirements:
 - Your HTML file should include the following:
   - Title
   - Favicon made from a screenshot of your picture
+    - On a Mac, `Shift + Command + 4` will give you a snipping tool and then save the image to your Desktop
   - The following working meta tags
-    - `og:type`
+    - `og:type` (this should always be "website")
     - `og:title`
     - `og:description`
-    - `og:url`
-    - `og:image`
+    - `og:url` (this is the link to your page from the pink site)
+    - `og:image` (this must be an absolute url, more info below in the tips)
 - Your drawn image should include at least the following:
   - One rectangle, drawn with `ctx.strokeRect()` or `ctx.fillRect()`
   - One circle or curve, drawn with `ctx.arc()`
@@ -36,6 +37,11 @@ Upload the following to `students/<yourname>/canvas/` by 8am on Monday, April 30
   - You can only test this after uploading, your local URL won't work
   - Remember, it can take a couple minutes for your uploaded changes to appear live, and then you have to Scrape Again
 - Use the same title for your HTML <title> and the meta title
+- Use the same image for your favicon and the meta preview
+  - The meta preview must be at least 200x200 pixels
+  - Don't know what the image's absolute URL should be? Images you upload should have a url like this:
+    - `https://mpaulweeks.github.io/cfc2018/students/<yourname>/canvas/<yourimage>.png`
+      - Of course, remove and replace the `<bracketed words>`
 - Image urls have to be absolute, ie with the "http://" beginning
 
 ## Canvas Tips
