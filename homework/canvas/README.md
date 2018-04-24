@@ -4,6 +4,8 @@
 
 [View the example code](/homework/canvas/example)
 
+[View the example site](https://mpaulweeks.github.io/cfc2018/homework/canvas/example)
+
 ## Assignment
 
 Use javascript and the canvas to draw a picture.
@@ -28,12 +30,6 @@ Upload the following to `students/<yourname>/canvas/` by 8am on Monday, April 30
 - a `css` file to remove the page's default margins
 - a `js` file for drawing the picture
 
-## Canvas Tips
-- Guide on how to use [<canvas>](canvas.md)
-- Strings, like colors and hex codes, needs quotes around them like `"this"`, but variable names like `canvas` and numbers don't need quotes
-- Totally stuck? Try inspecting the page and checking the Console for errors:
-![](console.png)
-
 ## Meta Tips
 - You can view the [pink site's source code](https://github.com/mpaulweeks/cfc2018/blob/master/index.html) as an example
 - Use this [Facebook debugger site](https://developers.facebook.com/tools/debug/sharing) to verify
@@ -41,3 +37,9 @@ Upload the following to `students/<yourname>/canvas/` by 8am on Monday, April 30
   - Remember, it can take a couple minutes for your uploaded changes to appear live, and then you have to Scrape Again
 - Use the same title for your HTML <title> and the meta title
 - Image urls have to be absolute, ie with the "http://" beginning
+
+## Canvas Tips
+- Guide on how to use [<canvas>](canvas.md)
+- Strings, like colors and hex codes, needs quotes around them like `"this"`, but variable names like `canvas` and numbers don't need quotes
+- Totally stuck? Try inspecting the page and checking the Console for errors:
+![](console.png)
