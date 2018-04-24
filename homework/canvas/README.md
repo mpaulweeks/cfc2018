@@ -12,9 +12,12 @@ Requirements:
 - Your HTML file should include the following:
   - Title
   - Favicon made from a screenshot of your picture
-  - Working meta tags
-    - Use this [Facebook debugger site](https://developers.facebook.com/tools/debug/sharing) to verify
-    - You can only test this after uploading
+  - The following working meta tags
+    - `og:type`
+    - `og:title`
+    - `og:description`
+    - `og:url`
+    - `og:image`
 - Your drawn image should include at least the following:
   - One rectangle, drawn with `ctx.strokeRect()` or `ctx.fillRect()`
   - One circle or curve, drawn with `ctx.arc()`
@@ -32,6 +35,9 @@ Upload the following to `students/<yourname>/canvas/` by 8am on Monday, April 30
 ![](console.png)
 
 ## Meta Tips
-- Use the debugger above to test your changes. Note - it can take a couple minutes for your uploaded changes to appear live, and then you have to Scrape Again
+- You can view the [pink site's source code](https://github.com/mpaulweeks/cfc2018/blob/master/index.html) as an example
+- Use this [Facebook debugger site](https://developers.facebook.com/tools/debug/sharing) to verify
+  - You can only test this after uploading, your local URL won't work
+  - Remember, it can take a couple minutes for your uploaded changes to appear live, and then you have to Scrape Again
 - Use the same title for your HTML <title> and the meta title
 - Image urls have to be absolute, ie with the "http://" beginning
