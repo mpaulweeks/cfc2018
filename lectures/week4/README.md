@@ -2,11 +2,14 @@
 
 ## Lecture
 
+- Students present
+  - Diane
+  - Mac
+  - Dorit
 - Review homework
-  - Students volunteer to present
-    - Diane
-    - Mac
-    - Dorit
+  - The `billmurray` example
+    - [code](/lectures/week4/billmurray)
+    - [site](https://mpaulweeks.github.io/cfc2018/lectures/week4/billmurray)
 - `<meta>` properties and the [Facebook debugger](https://developers.facebook.com/tools/debug/sharing)
 - Introduction to JS
   - Function calls with `console.log()`
