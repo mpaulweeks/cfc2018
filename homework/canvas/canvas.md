@@ -4,7 +4,7 @@
 - Set the width and height manually to match the current size of the body
 - Initialize the context, and save it to a variable (ctx)
 ```javascript
-var canvas = document.getElementById("#bigCanvas");
+var canvas = document.getElementById("bigCanvas");
 canvas.width = document.body.clientWidth;
 canvas.height = document.body.clientHeight;
 var ctx = canvas.getContext("2d");
@@ -41,7 +41,9 @@ ctx.fill();
 ctx.stroke();
 ```
 
-With a circle, begin a path, then use arc
+With a circle, begin a path, then use `ctx.arc()`, then use stroke and/or fill
+
+For the `arc()` function, (x,y) marks the center of the circle
 ```javascript
 ctx.beginPath();
 ctx.arc(x, y, radius, 0, Math.PI*2);
