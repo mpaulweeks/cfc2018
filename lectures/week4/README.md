@@ -6,7 +6,7 @@
   - Students volunteer to present
 - <meta> properties and Facebook debugger
 - Introduction to JS
-  - Function calls with `console.log`
+  - Function calls with `console.log()`
   - Numbers vs Strings
   - Variables
   - Semicolons and Single/Double quotes

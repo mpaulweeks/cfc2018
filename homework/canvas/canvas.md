@@ -7,7 +7,7 @@
 var canvas = document.getElementById("#bigCanvas");
 canvas.width = document.body.clientWidth;
 canvas.height = document.body.clientHeight;
-var ctx = canvas.getContext('2d');
+var ctx = canvas.getContext("2d");
 ```
 You will re-use this `ctx` variable to call the other functions and draw shapes!
 
