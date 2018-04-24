@@ -30,7 +30,7 @@ ctx.strokeRect(x, y, width, height);
 ```
 
 
-To draw a triangle, begin a path, then stroke and/or fill
+To draw a polygon, begin a path, then stroke and/or fill
 ```javascript
 ctx.beginPath();
 ctx.moveTo(100, 100);
@@ -48,3 +48,5 @@ ctx.arc(x, y, radius, 0, Math.PI*2);
 ctx.fill();
 ctx.stroke();
 ```
+
+Read more on the [MDN docs for ctx](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)

@@ -1,18 +1,20 @@
+// initialize ctx
 var canvas = document.getElementById("bigCanvas");
 canvas.width = document.body.clientWidth;
 canvas.height = document.body.clientHeight;
 var ctx = canvas.getContext('2d');
 
+// set colors
 ctx.strokeStyle = "red";
 ctx.fillStyle = "green";
 
-var x = 100;
-var y = 400;
+// draw rectangles
 var width = 400;
 var height = 200;
-ctx.fillRect(x, y, width, height);
-ctx.strokeRect(x, y, width, height);
+ctx.fillRect(100, 400, width, height);
+ctx.strokeRect(200, 300, width, height);
 
+// draw triangle
 ctx.beginPath();
 ctx.moveTo(100, 100);
 ctx.lineTo(200, 100);
@@ -21,10 +23,11 @@ ctx.closePath();
 ctx.fill();
 ctx.stroke();
 
-x = 300;
-y = 200;
-var radius = 20;
+// change fill color
+ctx.fillStyle = "blue";
+
+// draw circle
 ctx.beginPath();
-ctx.arc(x, y, radius, 0, Math.PI*2);
+ctx.arc(300, 200, 20, 0, Math.PI*2);
 ctx.fill();
 ctx.stroke();
