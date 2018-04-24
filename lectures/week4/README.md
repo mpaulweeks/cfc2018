@@ -4,6 +4,9 @@
 
 - Review homework
   - Students volunteer to present
+    - Diane
+    - Mac
+    - Dorit
 - `<meta>` properties and the [Facebook debugger](https://developers.facebook.com/tools/debug/sharing)
 - Introduction to JS
   - Function calls with `console.log()`
