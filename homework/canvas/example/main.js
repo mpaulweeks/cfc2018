@@ -2,15 +2,22 @@
 var canvas = document.getElementById("bigCanvas");
 canvas.width = document.body.clientWidth;
 canvas.height = document.body.clientHeight;
-var ctx = canvas.getContext('2d');
+var ctx = canvas.getContext("2d");
 
 // set colors
 ctx.strokeStyle = "red";
 ctx.fillStyle = "green";
 
-// draw rectangles
+// set some more variables
 var width = 400;
 var height = 200;
+
+// print out to inspect console
+console.log("hello!");
+console.log(width);
+console.log(height);
+
+// draw rectangles
 ctx.fillRect(100, 400, width, height);
 ctx.strokeRect(200, 300, width, height);
 
