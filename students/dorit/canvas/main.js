@@ -6,7 +6,7 @@ var ctx=canvas.getContext ("2d");
 
 // background //
 
-ctx.fillStyle = "#009999"
+ctx.fillStyle = "#009999";
 
 ctx.fillRect (400, 50, 600, 600);
 ctx.fill();
@@ -78,12 +78,12 @@ ctx.fill();
 ctx.strokeStyle = "white";
 ctx.fillStyle = "#ffb380";
 ctx.lineWidth = 3;
-ctx.beginPath ();
+ctx.beginPath();
 ctx.arc (750,450, 50, 0, Math.PI);
 ctx.stroke();
 ctx.fill();
 
-ctx.beginPath ();
+ctx.beginPath();
 ctx.arc (650,450, 50, 0, Math.PI);
 ctx.stroke();
 ctx.fill();
