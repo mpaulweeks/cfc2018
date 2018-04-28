@@ -5,8 +5,10 @@ canvas.height = 700;
 var ctx=canvas.getContext ("2d");
 
 // background //
-
-ctx.fillStyle = "#009999";
+var gradient=ctx.createLinearGradient (400,50, 600, 0);
+gradient.addColorStop(0, "white");
+gradient.addColorStop(1, "#009999")
+ctx.fillStyle = gradient;
 
 ctx.fillRect (400, 50, 600, 600);
 ctx.fill();
