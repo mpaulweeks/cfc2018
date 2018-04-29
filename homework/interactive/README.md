@@ -10,7 +10,7 @@ Watch/read one or more of the following videos/articles about modern computing
 
 - [The Rise of Automation](https://youtu.be/WSKi8HfcxEk)
 - [How Machines Learn](https://youtu.be/R9OHn5ZF4Uo)
-- AI Resisting Change (link todo)
+- [General AI Won't Want You To Fix its Code](https://youtu.be/4l7Is6vOAOA)
 - [AI "Stop Button" Problem](https://youtu.be/3TYT1QfdfsM)
 - [Blockchain is not only crappy technology but a bad vision for the future](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efde)
 
