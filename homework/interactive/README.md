@@ -8,11 +8,14 @@
 
 Watch/read one or more of the following videos/articles about modern computing
 
-- [The Rise of Automation](https://youtu.be/WSKi8HfcxEk)
-- [How Machines Learn](https://youtu.be/R9OHn5ZF4Uo)
-- [General AI Won't Want You To Fix its Code](https://youtu.be/4l7Is6vOAOA)
-- [AI "Stop Button" Problem](https://youtu.be/3TYT1QfdfsM)
-- [Blockchain is not only crappy technology but a bad vision for the future](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efde)
+- Videos
+  - [The Rise of Automation](https://youtu.be/WSKi8HfcxEk)
+  - [How Machines Learn](https://youtu.be/R9OHn5ZF4Uo)
+  - [General AI Won't Want You To Fix its Code](https://youtu.be/4l7Is6vOAOA)
+  - [AI "Stop Button" Problem](https://youtu.be/3TYT1QfdfsM)
+- Articles
+  - [The AI Revolution: The Road to Superintelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
+  - [Blockchain is not only crappy technology but a bad vision for the future](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efde)
 
 Then create a web page where you respond to the content of the video, similar to the [blog](/homework/blog) assignment:
 
