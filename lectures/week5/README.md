@@ -10,7 +10,9 @@
 
 ## Workshop
 
-- Code example with jQuery and class manipulation
+- Code example with jQuery, then class participation
+- Show video in class
+  - [What's the fastest way to alphabetize your bookshelf?](https://youtu.be/WaNLJf8xzC4)
 
 ## Homework
 

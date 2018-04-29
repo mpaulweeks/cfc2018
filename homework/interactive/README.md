@@ -8,9 +8,9 @@
 
 Watch/read one or more of the following videos/articles about modern computing
 
-- [What's the fastest way to alphabetize your bookshelf?](https://youtu.be/WaNLJf8xzC4)
 - [The Rise of Automation](https://youtu.be/WSKi8HfcxEk)
 - [How Machines Learn](https://youtu.be/R9OHn5ZF4Uo)
+- AI Resisting Change (link todo)
 - [AI "Stop Button" Problem](https://youtu.be/3TYT1QfdfsM)
 - [Blockchain is not only crappy technology but a bad vision for the future](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efde)
 
