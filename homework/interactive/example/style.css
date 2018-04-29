@@ -1,0 +1,13 @@
+
+body {
+  text-align: center;
+}
+
+.button {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
