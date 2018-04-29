@@ -14,4 +14,4 @@
 
 ## Homework
 
-- Upload a [mobile-friendly interactive page](/homework/interactive)
+- Upload an [interactive website](/homework/interactive)

@@ -16,3 +16,9 @@
   - Record that option by appending to HTML below
   - Change options
 - Link internally by id?
+
+- Text should respond to one of a few articles
+  - [The Rise of Automation](https://youtu.be/WSKi8HfcxEk)
+  - [How Machines Learn](https://youtu.be/R9OHn5ZF4Uo)
+  - [AI "Stop Button" Problem](https://youtu.be/3TYT1QfdfsM)
+  - [Blockchain is not only crappy technology but a bad vision for the future](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efde)
