@@ -2,6 +2,9 @@
 
 ## Lecture
 
+- Explaining Botnets and DDOS
+  - [Computerphile video about DOS attacks](https://youtu.be/BcDZS7iYNsA)
+
 ## Workshop
 
 - `<audio>` tag
