@@ -9,7 +9,7 @@
 Watch/read one or more of the following videos/articles about modern computing
 
 - Videos
-  - [The Rise of Automation](https://youtu.be/WSKi8HfcxEk)
+  - [Quantum Computers Explained – Limits of Human Technology](https://youtu.be/JhHMJCUmq28)
   - [How Machines Learn](https://youtu.be/R9OHn5ZF4Uo)
   - [General AI Won't Want You To Fix its Code](https://youtu.be/4l7Is6vOAOA)
   - [AI "Stop Button" Problem](https://youtu.be/3TYT1QfdfsM)
