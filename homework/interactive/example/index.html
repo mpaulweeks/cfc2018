@@ -6,18 +6,29 @@
 <body>
   <h1> page </h1>
 
-  <div class="button" id="button1">
-    click here to see a kitten
-  </div>
-  <div class="hidden" id="kitten">
-    <img src="https://placekitten.com/400/200" />
-  </div>
-
-  <div class="button" id="button2">
+  <div class="clickable" id="button2">
     click here to see a bear
   </div>
-  <div class="hidden" id="bear">
-    <img src="https://placebear.com/400/200" />
+  <div class="hidden hideAble" id="bear">
+    <img class="medium clickable" src="https://placebear.com/400/200" />
+  </div>
+
+  <div class="clickable" id="button1">
+    click here to see a kitten
+  </div>
+  <div class="hidden hideAble" id="kitten">
+    <img class="medium" src="https://placekitten.com/400/200" />
+  </div>
+
+  <div>
+    click Morgan Freeman to make it huge
+  </div>
+  <div class="hideAble">
+    <img id="morgan" class="medium" src="https://morganfillman.space/1280/720" />
+  </div>
+
+  <div class="clickable" id="hideAll">
+    hide all images
   </div>
 
 </body>

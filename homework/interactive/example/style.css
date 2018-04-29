@@ -3,9 +3,20 @@ body {
   text-align: center;
 }
 
-.button {
+.clickable {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.medium {
+  width: 400px;
+}
+
+.huge {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
 }
 
 .hidden {
