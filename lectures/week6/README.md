@@ -3,12 +3,15 @@
 ## Lecture
 
 - Review reading
+  - Break into pairs to summarize the media
   - Do the [The Moral Machine](http://moralmachine.mit.edu/) with class
 - Students present
 - Review homework
 - Mobile design
-  - Expected vs reality
-  - Broken page vs example that works ok
+  - What would happen on iPhone 6 Plus?
+    - Example 1: pink site (squished)
+    - Example 2: Jienne bio (working as expected)
+    - Example 3: Diane bio (strange padding)
   - How would you fix?
   - `viewport`
     - Demo with billmurray
