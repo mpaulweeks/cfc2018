@@ -4,16 +4,13 @@
 
 - Students present
 - Review homework
-- `viewport`
-  - Demon with billmurray
-- CSS @media queries
 - jQuery
   - History
   - Benefits
 
 ## Workshop
 
-- Work on homework
+- Code example with jQuery and class manipulation
 
 ## Homework
 
