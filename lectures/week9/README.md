@@ -12,7 +12,7 @@
 ## Workshop
 
 - Meeting 1-on-1 to discuss finals
-- Continue working on [Final Project](/homework/final) in class
+- Continue working on [Final Project](/homework/final#week-9---submit-the-final-project) in class
 
 ## Homework
 

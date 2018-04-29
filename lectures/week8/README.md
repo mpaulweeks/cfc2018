@@ -8,7 +8,7 @@
 ## Workshop
 
 - Meeting 1-on-1 to discuss finals
-- Begin working on [Final Project](/homework/final) in class
+- Begin working on [Final Project](/homework/final#week-8---begin-prototyping) in class
 
 ## Homework
 
