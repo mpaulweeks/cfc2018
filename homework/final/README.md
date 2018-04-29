@@ -12,7 +12,7 @@ Requirements:
 
 The goal is to have something written down we can discuss, so I can tell you ahead of time if it's too modest / difficult.
 
-## Week 8 - Begin prototyping
+## Week 8 - Begin Prototyping
 
 Deadline: 8am on Monday, April 28
 
