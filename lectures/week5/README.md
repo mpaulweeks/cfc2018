@@ -2,6 +2,8 @@
 
 ## Lecture
 
+- Explain the strict homework requirements
+- Roadmap of the class
 - Students present
 - Review homework
 - jQuery
