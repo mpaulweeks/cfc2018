@@ -8,6 +8,7 @@
   - Roadmap of the class going forward, suggestions for week 7
 - Students present
 - Review homework
+  - Anything you didn't know how to do?
 - jQuery
   - History
   - Benefits
