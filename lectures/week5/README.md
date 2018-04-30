@@ -2,8 +2,10 @@
 
 ## Lecture
 
-- Explain the strict homework requirements
-- Roadmap of the class
+- Class meta
+  - Explain the strict homework requirements
+  - Explain midterm grading
+  - Roadmap of the class going forward, suggestions for week 7
 - Students present
 - Review homework
 - jQuery
