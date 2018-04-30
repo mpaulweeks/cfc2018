@@ -1,5 +1,6 @@
 
-function showBear(){
+function showBear(e){
+  console.log(e.target);
   $("#bear").removeClass("hidden");
 }
 $("#button2").click(showBear);
@@ -20,7 +21,6 @@ function showKitten(){
 }
 $("#button1").click(showKitten);
 
-
 function hugeMorgan(){
   $("#morgan").addClass("huge");
 }
@@ -30,3 +30,8 @@ function hideAll(){
   $(".hideAble").addClass("hidden");
 }
 $("#hideAll").click(hideAll);
+
+function hideOnClick(event){
+  $(event.target).addClass("hidden");
+}
+$("div").click(hideOnClick);
