@@ -8,6 +8,8 @@
   - Roadmap of the class going forward, suggestions for week 7
 - Students present
 - Review homework
+  - Jienne's variables
+  - Carey's overlapping limbs
   - Anything you didn't know how to do?
 - jQuery
   - History
