@@ -10,6 +10,7 @@
     "steve"
   ],
   "projects": [
+    "interactive",
     "canvas",
     "navbar",
     "blog",
