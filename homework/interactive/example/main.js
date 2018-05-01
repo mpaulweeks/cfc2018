@@ -1,37 +1,52 @@
 
-function showBear(e){
-  console.log(e.target);
-  $("#bear").removeClass("hidden");
-}
-$("#button2").click(showBear);
-function hideBear(){
-  $("#bear").addClass("hidden");
-}
-$("#bear").click(hideBear);
-
-var kittenShow = 0;
-function showKitten(){
-  if (kittenShow == 0){
-    $("#kitten").removeClass("hidden");
-    kittenShow = 1;
-  } else {
-    $("#kitten").addClass("hidden");
-    kittenShow = 0;
+var happyClickCount = 0;
+function revealHappy(){
+  happyClickCount = happyClickCount + 1;
+  if (happyClickCount == 1){
+    $("#happyInfo").removeClass("hidden");
+  }
+  if (happyClickCount == 2){
+    $("#happyInfo").addClass("hidden");
+    happyClickCount = 0;
   }
 }
-$("#button1").click(showKitten);
+$("#happyButton").click(revealHappy);
 
-function hugeMorgan(){
-  $("#morgan").addClass("huge");
+var isFullscreen = 0;
+function fullImage(){
+  isFullscreen = isFullscreen + 1;
+  if (isFullscreen == 1){
+    $(this).addClass("fullScreen");
+  }
+  if (isFullscreen == 2){
+    $(this).removeClass("fullScreen");
+    isFullscreen = 0;
+  }
 }
-$("#morgan").click(hugeMorgan);
+$(".sameWidth").click(fullImage);
 
-function hideAll(){
-  $(".hideAble").addClass("hidden");
+function revealSecrets(){
+  $("#secretButton").addClass("hidden");
+  $("#secretInfo").removeClass("hidden");
 }
-$("#hideAll").click(hideAll);
+$("#secretButton").click(revealSecrets);
 
-function hideOnClick(event){
-  $(event.target).addClass("hidden");
+function revealSuperSecrets(){
+  $("#superSecretButton").addClass("hidden");
+  $("#superSecretInfo").removeClass("hidden");
 }
-$("div").click(hideOnClick);
+$("#superSecretButton").click(revealSuperSecrets);
+
+function nightMode(){
+  $("body").addClass("dark");
+  $("#darkButton").addClass("hidden");
+  $("#lightButton").removeClass("hidden");
+}
+$("#darkButton").click(nightMode);
+
+function lightMode(){
+  $("body").removeClass("dark");
+  $("#lightButton").addClass("hidden");
+  $("#darkButton").removeClass("hidden");
+}
+$("#lightButton").click(lightMode);
