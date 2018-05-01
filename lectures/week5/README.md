@@ -7,6 +7,10 @@
   - Explain midterm grading
   - Roadmap of the class going forward, suggestions for week 7
 - Students present
+  - Carey
+  - Max
+  - Penelope
+  - Mac
 - Review homework
   - Jienne's variables
   - Carey's overlapping limbs
@@ -19,8 +23,15 @@
 ## Workshop
 
 - Code example with jQuery, then class participation
-- Show video in class
+  - defining fucntions
+  - jQuery add/remove class
+  - jQuery click listener
+  - tracking state with variable
+  - conditionals aka "if statements"
+  - `$(this)`
+- Show video in class on sorting
   - [What's the fastest way to alphabetize your bookshelf?](https://youtu.be/WaNLJf8xzC4)
+  - Explain relation to functions
 
 ## Homework
 
