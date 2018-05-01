@@ -12,8 +12,9 @@
   - Carey's overlapping limbs
   - Anything you didn't know how to do?
 - jQuery
-  - History
-  - Benefits
+  - Multi-platform
+  - 10 years of adoption
+  - Consistent API
 
 ## Workshop
 

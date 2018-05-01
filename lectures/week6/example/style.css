@@ -1,0 +1,28 @@
+body {
+  font-size: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (max-width: 400px) {
+  .medium,
+  .large {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 401px) {
+  .small,
+  .large {
+    display: none;
+  }
+}
+
+@media (min-width: 801px) {
+  .small,
+  .medium {
+    display: none;
+  }
+}

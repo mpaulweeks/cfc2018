@@ -12,8 +12,8 @@
     - Example 1: pink site (squished)
     - Example 2: Jienne bio (working as expected)
     - Example 3: Diane bio (strange padding)
-  - How would you fix?
-  - `viewport`
+  - How would you fix the pink site?
+  - `<meta name="viewport" content="width=device-width, initial-scale=1">`
     - Demo with billmurray
 
 ## Workshop
