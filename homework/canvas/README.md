@@ -51,4 +51,4 @@ Upload the following to `students/<yourname>/canvas/` by 8am on Monday, April 30
   - [Linear Gradients](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient)
   - [Radial Gradients](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient)
 - Totally stuck? Try inspecting the page and checking the Console for errors:
-![](console.png)
+![](/static/console.png)
