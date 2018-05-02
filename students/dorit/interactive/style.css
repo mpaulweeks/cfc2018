@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.title {
+  color: darkred;
+  font-size: 50px;
+  font-weight: bold;
+  }
+.intro {
+  margin: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  line-height: 1.5;
+}
+.sameheight {
+  height:400px;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  background-color: #ff9999;
+  padding: 5 10;
+  width: 200px;
+  border: solid;
+  border-color: darkred;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#fear {
+  margin-left: 83px;
+}
+#excite {
+  margin-left: 91;
+}
+#quest {
+  margin-left: 97;
+}
+#crit {
+  margin-left: 179;
+}
+
+.textblock {
+  text-align: left;
+  font-size: 16px;
+  width: 300px;
+  line-height: 1.3;
+}
+
+#thingsIFear {
+  padding-left: 30px;
+}
+#thingsThatExcite {
+  padding-left: 365px;
+}
+#questions {
+  padding-left: 675px;
+}
+#criticism {
+  padding-left: 1050px;
+  width: 350px;
+}
+
+
+
+
+
+
+
+.hidden {
+  display: none;
+}
