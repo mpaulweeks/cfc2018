@@ -18,7 +18,7 @@
     - Example 1: pink site
     - Example 2: Jienne bio (working as expected)
     - Example 3: Diane bio (strange padding)
-      - `max-width: 100%;` on <img />
+      - `max-width: 100%;` on `<img />`
 
 ## Workshop
 
