@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-size: 20px;
+
+  /* transition-property: color, background-color;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out; */
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.sameWidth {
+  width: 300px;
+
+  /* transition-property: width;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out; */
+}
+
+.fullScreen {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+}
+
+.button {
+  padding: 10px 5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: pink;
+
+  width: 100px;
+  margin: 0px auto;
+}
+
+.info {
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
