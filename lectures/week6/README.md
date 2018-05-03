@@ -14,16 +14,19 @@
     - What could happen? Enumerate possibilities
     - What should happen, given current CSS?
   - What happens to existing sites when shrunk?
+    - The difference between mobile and just a skinny display
     - Example 1: pink site
     - Example 2: Jienne bio (working as expected)
     - Example 3: Diane bio (strange padding)
-  - `<meta name="viewport" content="width=device-width, initial-scale=1">`
-    - Demo with mobile/example
-    - Demo with billmurray
+      - `max-width: 100%;` on <img />
 
 ## Workshop
 
-- CSS @media queries
+- `<meta name="viewport" content="width=device-width, initial-scale=1">`
+  - Demo with [Cat Herder](https://cat-herder.mpaulweeks.com/edh/20180423)
+- `@media (max-width: 800px) {}`
+  - Demo with mobile/example
+  - Demo with billmurray
 
 ## Homework
 
