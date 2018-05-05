@@ -1,0 +1,81 @@
+
+/* orange yellow  */
+body {
+  background-color: #E8B14B;
+  margin: 0px;
+  text-align: center;
+  font-size: 24px;
+}
+/* royal blue  */
+.title {
+  font-family: 'Exo 2', sans-serif;
+  color: #2353E9 ;
+  font-size: 44px;
+  margin-top: 14px;
+}
+
+.robofriends {
+  width: 50%;
+  margin: 15px;
+}
+
+.robofoes {
+  width: 50%;
+  margin: 15px;
+}
+
+.button {
+  padding: 10px;
+  border-width: 5px;
+  border-style: groove;
+  border-color: #2353E9;
+  width: 345px;
+  text-align: center;
+  margin: 5px auto;
+  font-family: "Exo 2";
+}
+
+.goButton {
+  padding: 10px;
+  border-width: 5px;
+  border-style: groove;
+  border-color: green;
+  width: 60px;
+  text-align: center;
+  margin: 5px auto;
+  font-family: "Exo 2";
+}
+
+.stopButton {
+  padding: 10px;
+  border-width: 5px;
+  border-style: groove;
+  border-color: red;
+  width: 60px;
+  text-align: center;
+  margin: 5px auto;
+  font-family: "Exo 2";
+}
+
+.dark {
+  background-color: #993C26;
+  color: 2353E9;
+}
+
+.info {
+  font-family: 'Work Sans', sans-serif;
+  margin: 15px auto;
+}
+
+.hide {
+  display: none;
+}
+
+.robofoes {
+  display: none;
+}
+
+.reveal{
+  text-align: center;
+  color: red;
+}
