@@ -7,7 +7,7 @@ function revealAll(){
 $(".thoughts").click(revealAll)
 
 var buttonsClickCount = 0;
-function revealScary (){
+function revealScary(){
   buttonsClickCount = buttonsClickCount + 1;
     if(buttonsClickCount == 1){
       $("#scaryInfo").removeClass("hide");
@@ -19,7 +19,7 @@ function revealScary (){
   }
 $("#scaryButton").click(revealScary);
 
-function revealHappy (){
+function revealHappy(){
   buttonsClickCount = buttonsClickCount + 1;
     if(buttonsClickCount == 1){
       $("#happyInfo").removeClass("hide");
@@ -31,7 +31,7 @@ function revealHappy (){
   }
 $("#happyButton").click(revealHappy);
 
-function revealMore (){
+function revealMore(){
   buttonsClickCount = buttonsClickCount + 1;
     if(buttonsClickCount == 1){
       $("#moreInfo").removeClass("hide");
@@ -43,7 +43,7 @@ function revealMore (){
   }
 $("#moreButton").click(revealMore);
 
-function revealRobot (){
+function revealRobot(){
   buttonsClickCount = buttonsClickCount + 1;
     if(buttonsClickCount == 1){
       $("#robotDying").removeClass("hide");
@@ -53,7 +53,7 @@ function revealRobot (){
   }
 $("#robotOkay").click(revealRobot);
 
-function revealRobot2 (){
+function revealRobot2(){
   buttonsClickCount = buttonsClickCount + 1;
     if(buttonsClickCount == 1){
       $("#robotOkay").removeClass("hide");
