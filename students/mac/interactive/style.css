@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  background-color: Yellow;
+  font-family: "Orator STD";
+  font-size: 40px;
+  padding-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.bar{
+max-width: 10px;
+position: fixed;
+top: 0px;
+left: 0px;
+}
+
+.sabotage{
+  text-align: left;
+  background-color: black;
+  font-family: "Courier";
+  font-size: 10px;
+  color: green;
+  width: 150px;
+}
+
+.button{
+  padding: 0px;
+  margin: 0px auto;
+}
+
+.border{
+  border: 20px solid white;
+}
+
+.info{
+  font-size: 20px;
+  font-family: Times;
+  padding: 30px 300px;
+  }
+
+.break{
+  padding-top: 2500px;
+  font-family: "Courier";
+}
+
+.img{
+  max-width: 15px;
+  height: 30px;
+}
+
+blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; // for android
+    animation: 2s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
