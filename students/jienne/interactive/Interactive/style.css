@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+  color: gray;
+  background-color: #DFF2E7;
+}
+.heading{
+  color: #6AA582;
+  font-size: 100px;
+  font-style: oblique;
+  font-family: didot;
+  text-decoration: underline;
+  text-decoration-color: #91F9BB;
+}
+.text{
+  font-family: helvetica;
+  color: #4799C6;
+  font-size: 50px;
+}
+.hidden{
+  display: none;
+}
+.button{
+  margin: 75px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 35px;
+  border-width: thin;
+  border-style: dotted;
+  border-color: black;
+  font-family: didot;
+  font-size: 50px;
+}
+.info{
+  font-family: helvetica;
+  font-size: 25px;
+}
