@@ -7,7 +7,7 @@ function revealWhet(){
   }
   if (whetClickCount == 2){
     $("#whetInfo").addClass("hidden");
-    happyClickCount = 0;
+    whetClickCount = 0;
   }
 }
 
