@@ -4,8 +4,12 @@
 
 - Review reading
   - Break into pairs to summarize the media
-  - Do the [The Moral Machine](http://moralmachine.mit.edu/) with class
+  - Clarify the difference between Narrow vs General AI
+- Do the [The Moral Machine](http://moralmachine.mit.edu/) with class
+  - Breaks into explanation of the [Trolley Problem](https://en.wikipedia.org/wiki/Trolley_problem)
 - Students present
+  - Diane
+  - Dorit
 - Review homework
 - CSS transitions
   - Review using example from last week's homework
