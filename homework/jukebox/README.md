@@ -12,7 +12,7 @@ Requirements:
 - The page must play music, either automatically or via user intervention
   - Using either `<audio>` or an embedded video is fine
 
-Upload the following to `students/<yourname>/jukebox/` by 8am on Monday, May 14
+Upload the following to `students/<yourname>/jukebox/` by 8am on Monday, May 21
 - `index.html`
 - a `css` file for styling
 - any related/necessary audio files
