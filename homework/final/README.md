@@ -4,7 +4,7 @@ The final project can be one or many pages. It should be the culmination of your
 
 ## Week 7 - Drafting an Idea
 
-Deadline: 8am on Monday, April 21
+Deadline: 8am on Monday, May 21
 
 Requirements:
 - Modify the `README.md` in your `final` folder to describe your final project
@@ -14,7 +14,7 @@ The goal is to have something written down we can discuss, so I can tell you ahe
 
 ## Week 8 - Begin Prototyping
 
-Deadline: 8am on Monday, April 28
+Deadline: 8am on Monday, May 28
 
 Requirements:
 - Add a link to your new repo on your final document (the same README from last week)
@@ -26,7 +26,7 @@ This is also when I'll set explicit requirements for each individual project (eg
 
 ## Week 9 - Submit the Final Project
 
-Deadline: 8am on Tuesday, May 5th
+Deadline: 8am on Tuesday, June 5
 
 Upload your completed project before class, we will be doing live demos
 
