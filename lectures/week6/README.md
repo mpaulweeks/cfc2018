@@ -24,9 +24,10 @@
 
 - `<meta name="viewport" content="width=device-width, initial-scale=1">`
   - Demo with [Cat Herder](https://cat-herder.mpaulweeks.com/edh/20180423)
+  - Demo with [/lectures/week4/billmurray](/lectures/week4/billmurray)
 - `@media (max-width: 800px) {}`
-  - Demo with mobile/example
-  - Demo with billmurray
+  - Demo with Jienne's interactive site
+  - Demo with [/homework/mobile/example](/homework/mobile/example)
 
 ## Homework
 
