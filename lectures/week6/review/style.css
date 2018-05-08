@@ -3,10 +3,10 @@ body {
   text-align: center;
   font-size: 20px;
 
-  /* transition-property: color, background-color;
+  transition-property: color, background-color;
   transition-delay: 0s;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out; */
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
 }
 
 .dark {
@@ -17,10 +17,10 @@ body {
 .sameWidth {
   width: 300px;
 
-  /* transition-property: width;
+  transition-property: "width";
   transition-delay: 0s;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out; */
+  transition-duration: 3s;
+  transition-timing-function: linear;
 }
 
 .fullScreen {
