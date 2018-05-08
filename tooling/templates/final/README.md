@@ -10,7 +10,7 @@ Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to 
 
 ## Project Requirements
 
-(number of HTML files, whether you will use JS)
+(number of HTML files, whether you will use JS, any images/media you will need)
 
 ## Plan for Mobile Differences
 
