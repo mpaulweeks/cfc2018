@@ -1,0 +1,77 @@
+body {
+  font-size: 25px;
+  font-family: helvetica;
+  color: darkblue;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+  font-size: 50px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: darkred;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: white;
+  color: darkred;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.sameHeight {
+  height: 500px;
+  width: auto;
+  transition-delay: 0s;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+.fullScreen {
+  position: fixed;
+  bottom: 5%;
+  left: 25%;
+  height: 95%;
+  max-width: 70%;
+}
+
+
+@media (max-width: 800px) {
+  /* small screens */
+  body {
+    font-size: 20px;
+  }
+  button {
+    font-size: 16px;
+  }
+
+  .sameHeight {
+    width: 100%;
+    height: auto;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .fullScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width:100%;
+  }
+
+@media min-width: 801px) {
+  /* large screens */
+
+  .fullScreen {
+    position: fixed;
+    bottom: 5%;
+    left: 25%;
+    height: 95%;
+    max-width: 70%;
+  }
