@@ -1,0 +1,53 @@
+body{
+  font-family: Helvetica;
+  width:40%;
+  margin-left: 30%;
+}
+
+.header{
+  padding-top: 10px;
+  font-size: 24pt;
+  font-weight: bold;
+  letter-spacing: 15;
+}
+
+.subhead{
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.text{
+  /* font-weight: 200; */
+}
+
+.italic{
+  font-style: italic;
+}
+
+.hidden{
+  display: none;
+}
+
+.gradient{
+  margin-top: -300px;
+}
+
+.popup{
+  width: 25%;
+  padding: 20px 10px;
+  position: fixed;
+  left: 37.5%;
+  top: 33%;
+  border: 3px solid black;
+  background-color: white;
+}
+
+.button{
+  width: 15%;
+  margin-left: 45%;
+  text-align: center;
+  margin-top: 20px;
+  color: #FFFFFF;
+  background-color: #333333;
+  padding: 10px 0px;
+  font-weight: bold;
+}
