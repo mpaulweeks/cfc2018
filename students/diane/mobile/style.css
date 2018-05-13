@@ -1,0 +1,62 @@
+body {
+  background-color: #FEF200;
+  font-family: "Rokkitt";
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 85px;
+}
+
+.title {
+  font-family: "Kirang Haerang";
+  color: #532563;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pics {
+  width: 350px;
+  margin: 5px;
+}
+
+.cheesebutton {
+  padding: 10px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: #532563;
+  width: 1090px;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.hide {
+  display: none;
+}
+
+.pics2 {
+display: none;
+width: 350px;
+margin: 5px;
+}
+
+@media (max-width: 1145px) {
+  /* small screens */
+  body {
+    font-size: 55px;
+  }
+  .cheesebutton {
+    width: 650px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 746px) {
+  /* small screens */
+  body {
+    font-size: 26px;
+  }
+  .cheesebutton {
+    width: 320px;
+    font-size: 25px;
+  }
+}
