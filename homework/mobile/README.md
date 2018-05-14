@@ -21,7 +21,7 @@ The requirements are:
 - The user can click on something and change the content of the page
 - Use at least one CSS transition, see the [example from class](/lectures/week6/review)
 
-Upload the following to `students/<yourname>/interactive/` by 8am on Monday, May 14
+Upload the following to `students/<yourname>/mobile/` by 8am on Monday, May 14
 
 - `index.html`
 - a `css` file for styling
