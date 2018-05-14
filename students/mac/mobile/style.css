@@ -1,0 +1,36 @@
+body{
+  margin: 0px;
+  background-color: black;
+  font-family: Orator Std;
+  text-align: center;
+  color: yellow;
+  align-items: center;
+
+  transition-property: color, background-color;
+  transition-delay: 0s;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+}
+
+.button{
+  color: black;
+  margin: 100px;
+}
+
+.red{
+  background: red;
+  color: red;
+}
+
+.blue{
+  background: blue;
+  color: black;
+}
+
+.hidden{
+  display: none;
+}
+
+img{
+  max-width: 100%;
+}
