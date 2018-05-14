@@ -9,8 +9,9 @@ Create a web page that plays audio and looks good when you share it.
 Requirements:
 - HTML must have title and favicon
 - HTML must have `<meta>` tags for social
-- The page must play music, either automatically or via user intervention
+- The page must play music via user intervention
   - Using either `<audio>` or an embedded video is fine
+  - `autoplay` no longer works with Google Chrome
 
 Upload the following to `students/<yourname>/jukebox/` by 8am on Monday, May 21
 - `index.html`
@@ -22,7 +23,6 @@ Upload the following to `students/<yourname>/jukebox/` by 8am on Monday, May 21
 
 - See [canvas homework](/homework/canvas) for tips on the `<meta>` tags
 - Read more about the [`<audio>` tag documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
-- If trying to add autoplay to an embedded YouTube video, check [this useful thread on StackOverflow](https://stackoverflow.com/questions/3405242/how-can-i-autoplay-a-video-using-the-new-embed-code-style-for-youtube)
 
 ## Some MP3 Sources
 
