@@ -1,0 +1,79 @@
+body {
+  font-size: 40px;
+  font-family: 'Catamaran', sans-serif;
+  color: #0f0f3d;
+  line-height: 1.25;
+  text-align: center;
+  background: radial-gradient(circle, #ffe6e6, #ff4d4d);
+  /* background: linear-gradient(to bottom right, #ffe6e6 ,  #ff4d4d); */
+  /* background-color: #007399; */
+}
+
+.header {
+  padding: 10px;
+  font-size: 80px;
+  font-family: 'Limelight', cursive; 
+  color: #00ff99 ;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 7.5px;
+  padding: 10px 20px;
+  background-color: #0f0f3d;
+  color: #00ff99;
+  font-family: 'Catamaran', sans-serif;
+}
+.sameHeight {
+  height: 600px;
+  width: auto;
+  transition-delay: 0s;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+.fullScreen {
+  position: fixed;
+  bottom: 10%;
+  left: 20%;
+  height: 95%;
+  max-width: 80%;
+}
+
+
+@media (max-width: 800px) {
+  body {
+    font-size: 20px;
+  }
+  button {
+    font-size: 15px;
+  }
+
+  .sameHeight {
+    width: 100%;
+    height: auto;
+  }
+  .header {
+    font-size: 40px;
+  }
+
+  .fullScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width:100%;
+  }
+
+@media min-width: 801px) {
+
+  .fullScreen {
+    position: fixed;
+    bottom: 5%;
+    left: 25%;
+    height: 95%;
+    max-width: 70%;
+  }
