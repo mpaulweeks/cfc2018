@@ -3,6 +3,8 @@ body{
   background-color: #beccc5;
   text-align: center;
   font-size: 25px;
+  transition color: background-color;
+  transition-duration: 2s;
 }
 
 h1{
@@ -36,7 +38,6 @@ h1 span {
 .toggleThis{
   cursor: pointer;
   color: #701111;
-  text-decoration: underline;
 }
 
 .hidden{
