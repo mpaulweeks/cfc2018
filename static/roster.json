@@ -10,6 +10,7 @@
     "steve"
   ],
   "projects": [
+    "jukebox",
     "mobile",
     "interactive",
     "canvas",
