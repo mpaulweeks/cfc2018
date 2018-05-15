@@ -16,16 +16,20 @@
     });
     var bodyHtml = '';
     roster.projects.forEach(p => {
+      var pid = p;
+      if (pid === 'proposal') {
+        pid = 'final';
+      }
       var rowHtml = `
         <th>
-          <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/homework/${p}">${p}</a>
+          <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/homework/${pid}">${p}</a>
         </th>
       `;
       roster.students.forEach(s => {
         if (p === 'proposal') {
           rowHtml += `
             <td class="projects-cell">
-              <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/final">proposal</a>
+              <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/${pid}">proposal</a>
             </td>`;
         } else if (p === 'final') {
           const fi = roster.finals[s];
@@ -39,8 +43,8 @@
         } else {
           rowHtml += `
             <td class="projects-cell">
-              <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/${p}">code</a>
-              <a target="_blank" href="https://mpaulweeks.github.io/cfc2018/students/${s}/${p}">site</a>
+              <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/${pid}">code</a>
+              <a target="_blank" href="https://mpaulweeks.github.io/cfc2018/students/${s}/${pid}">site</a>
             </td>`;
         }
       });
