@@ -1,5 +1,7 @@
 <head>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="https://mpaulweeks.github.io/cfc2018/static/jquery.js"></script>
+  <script defer src="main.js"></script>
 </head>
 <body>
   <div class="title">
@@ -9,9 +11,24 @@
 
   <div class="flexbox">
     <img class="rotate fast" src="../../../welcome/favicon.png" />
-    <div class="rotate">
+    <div id="text">
       rotating text
     </div>
     <img class="rotate fast backwards" src="../../../welcome/favicon.png" />
   </div>
+
+  <div>
+    <audio id="song" src="mozart.mp3" controls loop></audio>
+  </div>
+  <div>
+    <button id="playMusic">
+      play
+    </button>
+  </div>
+
+  <div>
+    <iframe src="https://www.youtube.com/embed/3U52sP25ynE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <div class="dblock"></div>
 </body>
