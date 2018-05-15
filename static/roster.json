@@ -10,6 +10,7 @@
     "steve"
   ],
   "projects": [
+    "proposal",
     "jukebox",
     "mobile",
     "interactive",
@@ -17,5 +18,39 @@
     "navbar",
     "blog",
     "biography"
-  ]
+  ],
+  "finals": {
+    "carey": {
+      "github": "",
+      "repo": ""
+    },
+    "diane": {
+      "github": "",
+      "repo": ""
+    },
+    "dorit": {
+      "github": "",
+      "repo": ""
+    },
+    "jienne": {
+      "github": "",
+      "repo": ""
+    },
+    "mac": {
+      "github": "",
+      "repo": ""
+    },
+    "max": {
+      "github": "",
+      "repo": ""
+    },
+    "penelope": {
+      "github": "",
+      "repo": ""
+    },
+    "steve": {
+      "github": "",
+      "repo": ""
+    }
+  }
 }

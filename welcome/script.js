@@ -22,12 +22,16 @@
         </th>
       `;
       roster.students.forEach(s => {
-        if (p === 'final'){
+        if (p === 'proposal') {
+          rowHtml += `
+            <td class="projects-cell">
+              <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/final">proposal</a>
+            </td>`;
+        } else if (p === 'final') {
           const fi = roster.finals[s];
-          if (fi){
+          if (fi.repo){
             rowHtml += `
               <td class="projects-cell">
-                <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/${p}">docs</a>
                 <a target="_blank" href="https://github.com/${fi.github}/${fi.repo}">code</a>
                 <a target="_blank" href="https://${fi.github}.github.io/${fi.repo}/">site</a>
               </td>`;
