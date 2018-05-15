@@ -6,12 +6,15 @@ Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to 
 
 ## Project Description
 
-(what the website will do, information it will provide, user flow)
+The website will be a game called Turdy Birds. It will have a character at the bottom whose movement the user can control (i.e., move left or right) and moving "birds" that will fly at the top and deposit poop. The goal of the player is to avoid the poop falling from above. 
+If poop hits you, you die.
 
 ## Project Requirements
 
-(number of HTML files, whether you will use JS, any images/media you will need)
+1 html file
+1 css file
+1 js file
 
 ## Plan for Mobile Differences
 
-(can you adjust your design for mobile, and how will that work? otherwise if it a lost cause, how would you plan to inform your user to view it on desktop?)
+I would like to make it playable on mobile, but not sure how that would work. 
