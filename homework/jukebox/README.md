@@ -2,6 +2,10 @@
 
 [View the lecture notes](/lectures/week7)
 
+[View the example code](/homework/jukebox/example)
+
+[View the example site](https://mpaulweeks.github.io/cfc2018/homework/jukebox/example)
+
 ## Assignment
 
 Create a web page that plays audio and looks good when you share it.

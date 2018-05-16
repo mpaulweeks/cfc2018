@@ -9,7 +9,7 @@
 
 ## Workshop
 
-- CSS animations, using example in [/lectures/week7/animations](/lectures/week7/animations)
+- CSS animations, using example in [/homework/jukebox/example](/homework/jukebox/example)
 - `<audio>` tag
 - Embedding YouTube and `&autoplay=1`
 
