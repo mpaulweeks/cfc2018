@@ -1,0 +1,55 @@
+body{
+  background-image: url(https://i.pinimg.com/originals/56/38/96/5638968fc9c1d02010ea9620cb6de191.jpg);
+  background-size: cover;
+}
+
+#button{
+  color: white;
+  background-color: black;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 0px;
+  font-family: 'Futura';
+  font-weight: bold;
+  letter-spacing: 5;
+  font-size: 18pt;
+}
+
+.animalRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.animal{
+  width: 400px;
+  padding: 0px 40px;
+  margin-top: 0px;
+}
+
+.bounce{
+  animation-name: bounce;
+  animation-duration: .6s;
+  animation-iteration-count: 234;
+  animation-timing-function: ease-in;
+  animation-delay: 23s;
+}
+
+@keyframes bounce {
+  0%{
+    margin-top: 0px;
+  }
+  40%{
+    margin-top: 100px;
+  }
+  100%{
+    margin-top: 0px;
+  }
+}
