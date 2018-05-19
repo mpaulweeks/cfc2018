@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+
+}
+
+.title {
+  font-size: 45px;
+  color: darkred;
+  font-weight: bold;
+  font-family: helvetica;
+  margin: 20px;
+
+}
+/* got some help here with the positioning */
+.bird {
+  position: relative;
+  left: calc(50% - 30vh);
+  width: 60vh;
+  max-width: 100%;
+
+
+}
+.overlay {
+  position: absolute;
+  top: 2%;
+  left: 26%;
+  width: 42.5%;
+}
+.rotate {
+  animation-name: rotate;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation direction: normal;
+  animation-delay: 0s;
+  animation-duration: 6s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  21% {
+    transform: rotate(-30deg);
+  }
+  22% {
+    transform: rotate(0deg);
+  }
+  44% {
+    transform: rotate(0deg);
+  }
+  45% {
+    transform: rotate(-30deg);
+  }
+  46% {
+    transform: rotate(0deg);
+  }
+  67% {
+    transform: rotate(0deg);
+  }
+  68% {
+    transform: rotate(-30deg);
+  }
+  69% {
+    transform: rotate(0deg);
+  }
+  93% {
+    transform: rotate(0deg);
+  }
+  94% {
+    transform: rotate(-30deg);
+  }
+  96% {
+    transform:rotate(0deg);
+  }
+  98% {
+    transform: rotate(0deg);
+  }
+  99% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.button {
+  margin: 20px;
+}
