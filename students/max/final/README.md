@@ -6,12 +6,12 @@ Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to 
 
 ## Project Description
 
-(what the website will do, information it will provide, user flow)
+I want to create a more robust and full version of my previous "Ad Agency Name Generator" site. In the new version, all the text will be generated in JS, instead of hiding and showing HTML divs. It won't be limited to just acronyms, instead it'll randomly alternate, sometimes generating an acronym, sometimes generating full words. The design/styling of the names will also change with every click. 
 
 ## Project Requirements
 
-(number of HTML files, whether you will use JS, any images/media you will need)
+1 HTML, 1 CSS, 1 JS. I don't foresee using any images, just CSS styling, but we'll see.
 
 ## Plan for Mobile Differences
 
-(can you adjust your design for mobile, and how will that work? otherwise if it a lost cause, how would you plan to inform your user to view it on desktop?)
+The text size and styling of the names that are generated will adapt to smaller screens.
