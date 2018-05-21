@@ -1,0 +1,24 @@
+body{
+  margin: 80px;
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  font-family: Orator STD;
+  font-size: 80px;
+}
+
+.lyrics{
+  font-size: 22px;
+  margin: 40px;
+}
+
+.name{
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+img{
+  position: fixed;
+  max-width: 100px;
+  right: 100px;
+}
