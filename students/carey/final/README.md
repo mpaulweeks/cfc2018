@@ -6,12 +6,15 @@ Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to 
 
 ## Project Description
 
-(what the website will do, information it will provide, user flow)
+BTS "Love Yourself: Her" Album Website
+With landing page, a distinct page for each song on the album that tells one story, interactive worldwide map of tour locations & dates, connect page (links to social media, comment box, and spotify), a page with some fun content (graphic score, fan art, etc.)
 
 ## Project Requirements
 
-(number of HTML files, whether you will use JS, any images/media you will need)
+Number of HTML files: 13 (landing page, one for each of the 9 songs, tour with dates, connect, & fun content)
+Whether you will use JS: yes - to show the fan chants and to show the dates for each city they go to on their tour
+Any images/media you will need: lots of bts images, videos and music
 
 ## Plan for Mobile Differences
 
-(can you adjust your design for mobile, and how will that work? otherwise if it a lost cause, how would you plan to inform your user to view it on desktop?)
+Will shrink it things down to just one column. Instead of using an interactive map for the tour, I'll probably just have it as a list.
