@@ -1,7 +1,7 @@
 # diane/final/
 
-https://github.com/ddiane5/cfc/tree/master
-https://ddiane5.github.io/cfc/
+- https://github.com/ddiane5/cfc/tree/master
+- https://ddiane5.github.io/cfc/
 
 [Assignment details](/homework/final)
 
@@ -18,3 +18,14 @@ A world map that shows all the places I have lived and travelled. When you hover
 ## Plan for Mobile Differences
 
 Since maps are so big, and there will be a lot of specific details going into it, I worry that it would get lost on mobile, so this project would have to live on desktop.
+
+# Feedback
+
+- see example for how to float css
+- floating text / image should be `<a>` that links to another page
+
+## For next week
+
+- get one map page to link to a second map page, that links to an info page
+- with working CSS and links
+- we can discuss polish and extra features (like hover box) at that point
