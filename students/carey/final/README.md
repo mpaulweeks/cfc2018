@@ -1,5 +1,9 @@
 # carey/final/
 
+https://github.com/carriephang13/cfc/tree/master
+https://carriephang13.github.io/cfc/
+
+
 [Assignment details](/homework/final)
 
 Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to add more at the bottom.
