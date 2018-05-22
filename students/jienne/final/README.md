@@ -1,7 +1,7 @@
 # jienne/final/
 
-https://github.com/Jienne/cfc/blob/master/index.html
-https://jienne.github.io/cfc/
+- https://github.com/Jienne/cfc/blob/master/index.html
+- https://jienne.github.io/cfc/
 
 [Assignment details](/homework/final)
 
@@ -20,3 +20,17 @@ My copywriter partner and I came up with an idea to create a fake porn site for 
 ## Plan for Mobile Differences
 
 It should be able to be viewed on mobile.
+
+# Feedback
+
+- sounds like a portfolio site
+- ok if minimal to no JS, but should be incredibly polished
+- links should work, even if sending to bogus places
+- header/footer should look nice and official
+- optimize for mobile by probably making seperate assets and then displaying one or the other via CSS media queries
+
+## For next week
+
+- 2+ pages that link to each other
+- nav and footer (ok if incomplete)
+- get working example of asset switch on mobile (mock images ok)
