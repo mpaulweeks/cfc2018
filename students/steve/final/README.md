@@ -1,4 +1,6 @@
 # steve/final/
+https://github.com/SMacl00l/cfc
+https://smacl00l.github.io/cfc/
 
 [Assignment details](/homework/final)
 
