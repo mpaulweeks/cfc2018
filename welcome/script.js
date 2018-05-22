@@ -15,31 +15,25 @@
         </th>`;
     });
     var bodyHtml = '';
-    roster.projects.forEach(p => {
-      var pid = p;
-      if (pid === 'proposal') {
-        pid = 'final';
-      }
+    roster.projects.forEach(pid => {
       var rowHtml = `
         <th>
-          <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/homework/${pid}">${p}</a>
+          <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/homework/${pid}">${pid}</a>
         </th>
       `;
-      roster.students.forEach(s => {
-        if (p === 'proposal') {
+      roster.students.forEach((s, sindex) => {
+        if (pid === 'proposal') {
           rowHtml += `
             <td class="projects-cell">
-              <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/${pid}">proposal</a>
+              <a target="_blank" href="https://github.com/mpaulweeks/cfc2018/tree/master/students/${s}/final">proposal</a>
             </td>`;
-        } else if (p === 'final') {
-          const fi = roster.finals[s];
-          if (fi.repo){
-            rowHtml += `
-              <td class="projects-cell">
-                <a target="_blank" href="https://github.com/${fi.github}/${fi.repo}">code</a>
-                <a target="_blank" href="https://${fi.github}.github.io/${fi.repo}/">site</a>
-              </td>`;
-          }
+        } else if (pid === 'final') {
+          var gh = roster.github[sindex];
+          rowHtml += `
+            <td class="projects-cell">
+              <a target="_blank" href="https://github.com/${gh}/cfc">code</a>
+              <a target="_blank" href="https://${gh}.github.io/cfc/">site</a>
+            </td>`;
         } else {
           rowHtml += `
             <td class="projects-cell">

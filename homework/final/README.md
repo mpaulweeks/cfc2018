@@ -18,11 +18,13 @@ Deadline: 8am on Monday, May 28
 
 Requirements:
 - Add a link to your new repo on your final document (the same README from last week)
+  - We did this in class
 - Upload a working draft website to your repo
+- Ensure the webpage loads when hitting the public URL
 
 This is so I can get a picture of the direction you're taking, and we can discuss technical challenges.
 
-This is also when I'll set explicit requirements for each individual project (eg You're making a portfolio? It needs this and that)
+This is also when I'll set explicit requirements for each individual project (eg You're making a portfolio? It needs additional this and that)
 
 ## Week 9 - Submit the Final Project
 

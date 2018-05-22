@@ -9,7 +9,18 @@
     "penelope",
     "steve"
   ],
+  "github": [
+    "carriephang13",
+    "ddiane5",
+    "doritos123",
+    "jienne",
+    "mrmahooters",
+    "maxwcohen",
+    "akpvasquez",
+    "SMacl00l"
+  ],
   "projects": [
+    "final",
     "proposal",
     "jukebox",
     "mobile",
@@ -18,39 +29,5 @@
     "navbar",
     "blog",
     "biography"
-  ],
-  "finals": {
-    "carey": {
-      "github": "",
-      "repo": ""
-    },
-    "diane": {
-      "github": "",
-      "repo": ""
-    },
-    "dorit": {
-      "github": "",
-      "repo": ""
-    },
-    "jienne": {
-      "github": "",
-      "repo": ""
-    },
-    "mac": {
-      "github": "",
-      "repo": ""
-    },
-    "max": {
-      "github": "",
-      "repo": ""
-    },
-    "penelope": {
-      "github": "",
-      "repo": ""
-    },
-    "steve": {
-      "github": "",
-      "repo": ""
-    }
-  }
+  ]
 }
