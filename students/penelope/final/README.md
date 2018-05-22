@@ -1,5 +1,8 @@
 # penelope/final/
 
+https://akpvasquez.github.io/cfc/
+https://github.com/Akpvasquez/cfc/tree/master
+
 [Assignment details](/homework/final)
 
 Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to add more at the bottom.
