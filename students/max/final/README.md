@@ -1,8 +1,7 @@
 # max/final/
 
-https://github.com/maxwcohen/cfc/tree/master
-
-https://maxwcohen.github.io/cfc/
+- https://github.com/maxwcohen/cfc/tree/master
+- https://maxwcohen.github.io/cfc/
 
 [Assignment details](/homework/final)
 
@@ -19,3 +18,18 @@ I want to create a more robust and full version of my previous "Ad Agency Name G
 ## Plan for Mobile Differences
 
 The text size and styling of the names that are generated will adapt to smaller screens.
+
+# Feedback
+
+- see example files
+- 3 arrays, for letters, words, CSS classes
+- 1 click listener to kick off randomizer function
+- (optional) many smaller functions for different paths
+- current design looks good
+- stretch goal: diffrent arrays for words types, eg adj then noun
+
+## For next week
+
+- make sure you have variable numbers of letters working
+- have at least 2 styles chosen at random
+- randoming adding slashes
