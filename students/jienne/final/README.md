@@ -1,5 +1,8 @@
 # jienne/final/
 
+https://github.com/Jienne/cfc/blob/master/index.html
+https://jienne.github.io/cfc/
+
 [Assignment details](/homework/final)
 
 Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to add more at the bottom.
