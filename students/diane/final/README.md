@@ -1,5 +1,8 @@
 # diane/final/
 
+https://github.com/ddiane5/cfc/tree/master
+https://ddiane5.github.io/cfc/
+
 [Assignment details](/homework/final)
 
 Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to add more at the bottom.
