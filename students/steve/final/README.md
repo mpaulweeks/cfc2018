@@ -19,3 +19,16 @@ i'll use 1 html file most likely, unless i include the image slideshow then I wi
 ## Plan for Mobile Differences
 
 yes I can adjust my design for mobile.Instead of having two columns of palettes on desktop version I can collaspe them into one for mobile (or smaller window sizes)
+
+# Feedback
+
+- strong idea
+- each palette should have an enclosing div, with title and meta info like links
+- display the hex codes in text somehow
+- global toggle to hide/show hex vs rgb codes
+- stretch goal: click to copy to keyboard
+
+## For next week
+
+- 3+ color palettes working on different sized screens
+- get the global toggle working for hex vs rgb display
