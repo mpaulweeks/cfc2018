@@ -1,5 +1,8 @@
 # dorit/final/
 
+https://doritos123.github.io/cfc/
+https://github.com/doritos123/cfc/tree/master
+
 [Assignment details](/homework/final)
 
 Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to add more at the bottom.
