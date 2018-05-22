@@ -1,5 +1,8 @@
 # max/final/
 
+https://github.com/maxwcohen/cfc/tree/master
+https://maxwcohen.github.io/cfc/
+
 [Assignment details](/homework/final)
 
 Edit this document on GitHub. _Only edit the text in parentheses._ Feel free to add more at the bottom.
