@@ -29,10 +29,11 @@
             </td>`;
         } else if (pid === 'final') {
           var gh = roster.github[sindex];
+          var repo = roster.final_repo[sindex];
           rowHtml += `
             <td class="projects-cell">
-              <a target="_blank" href="https://github.com/${gh}/cfc">code</a>
-              <a target="_blank" href="https://${gh}.github.io/cfc/">site</a>
+              <a target="_blank" href="https://github.com/${gh}/${repo}">code</a>
+              <a target="_blank" href="https://${gh}.github.io/${repo}/">site</a>
             </td>`;
         } else {
           rowHtml += `
