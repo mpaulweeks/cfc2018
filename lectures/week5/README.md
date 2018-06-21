@@ -23,7 +23,7 @@
 ## Workshop
 
 - Code example with jQuery, then class participation
-  - defining fucntions
+  - defining functions
   - jQuery add/remove class
   - jQuery click listener
   - tracking state with variable
